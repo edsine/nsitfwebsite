@@ -7,8 +7,8 @@ on:
 
 env:
   AWS_REGION: eu-west-1
-  ECR_REPOSITORY: servicom
-  ECS_SERVICE: staging-ensitf-servicom
+  ECR_REPOSITORY: ensitf-web
+  ECS_SERVICE: staging-ensitf-web
   ECS_CLUSTER: staging-cluster
   ECS_TASK_DEFINITION: task-definition.json
   BRANCH: ${{ github.head_ref || github.ref_name }}

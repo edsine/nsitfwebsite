@@ -7,8 +7,8 @@ on:
 
 env:
   AWS_REGION: eu-west-1
-  ECR_REPOSITORY: servicom
-  ECS_SERVICE: prod-ensitf-servicom
+  ECR_REPOSITORY: ensitf-web
+  ECS_SERVICE: prod-ensitf-web
   ECS_CLUSTER: production-cluster
   ECS_TASK_DEFINITION: task-definition.json
   BRANCH: ${{ github.head_ref || github.ref_name }}
